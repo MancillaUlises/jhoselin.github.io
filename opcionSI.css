@@ -5,10 +5,10 @@
 }
 
 .twenty-one{
-  font-size: 60px;
+  font-size: 40px;
   font-family: 'Josefin Sans';
   font-weight: 100;
-  line-height: 180px;
+  /* line-height: 180px; */
   color: rgb(43, 255, 0);
   margin: 40px 0;
 }
@@ -69,10 +69,10 @@ section {
 }
 section > button {
   background: #21af05;
-  display: block;
+  /* display: block; */
   margin: 0 auto;
   margin-bottom: 20px;
-  width: 100px;
+  width: 70px;
   font-size: 16.996px;
   line-height: 20px;
   padding: 5px 15px 5px;
@@ -113,13 +113,42 @@ section > button:hover {
   cursor: pointer;
   position: absolute;
   top: 4%;
-  right: 4%;
+  right: 1%;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   border-radius: 100px;
-  background: #cccccc;
+  background: #8a50503b;
   color: #ffffff;
   padding: 6px 0px 0px 9px;
-  width: 30px;
+  width: 23px;
+  height: 30px;
+}
+.pop1 {
+  display: none;
+  position: fixed;
+  top: 20%;
+  left: 10.3%;
+  width: 80%;
+  height: 0%;
+  background: #ffffff;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  outline: 10px solid rgba(0, 0, 0, 0.1);
+}
+.pop1 > span {
+  cursor: pointer;
+  position: absolute;
+  top: 4%;
+  right: 1%;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  background: #8a50503b;
+  color: #ffffff;
+  padding: 6px 0px 0px 9px;
+  width: 23px;
   height: 30px;
 }

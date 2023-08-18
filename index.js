@@ -110,7 +110,7 @@ function isOnHeart(x,y){
 
 
  $(document).ready(function () {
-     $("button").click(function () {
+     $("#btn1").click(function () {
          $(".pop").fadeIn(300);
          positionPopup();
      });
@@ -119,3 +119,14 @@ function isOnHeart(x,y){
          $(".pop").fadeOut(300);
      });
  });
+
+ $(document).ready(function () {
+  $("#btn2").click(function () {
+      $(".pop1").fadeIn(300);
+      positionPopup();
+  });
+
+  $(".pop1 > span, .pop1").click(function () {
+      $(".pop1").fadeOut(300);
+  });
+});
