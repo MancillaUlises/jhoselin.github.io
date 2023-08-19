@@ -10,12 +10,14 @@
   font-weight: 100;
   /* line-height: 180px; */
   color: rgb(43, 255, 0);
-  /* margin: 40px 0; */
+  /* margin: 2%; */
 }
 #p1{
   font-size: 40px;
   margin: 0%;
   text-align: center;
+  position: relative;
+  top: 10px;
 }
 #p2{
   margin: 0%;
@@ -80,7 +82,7 @@ section > button {
   background: #21af05;
   /* display: block; */
   margin: 0 auto;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   width: 70px;
   font-size: 16.996px;
   line-height: 20px;
@@ -101,6 +103,25 @@ section > button:hover {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+}
+#btn3{
+  background: #21af05;
+  display: block;
+  margin: 0 auto;
+  width: 70px;
+  font-size: 16.996px;
+  line-height: 20px;
+  padding: 5px 15px 5px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #ffffff;
+  cursor: pointer;
 }
 .pop {
   display: none;
@@ -128,7 +149,7 @@ section > button:hover {
   border-radius: 100px;
   background: #8a50503b;
   color: #ffffff;
-  padding: 6px 0px 0px 12px;
+  padding: 0.2em;;
   width: 25px;
   height: 25px;
 }
@@ -157,7 +178,36 @@ section > button:hover {
   border-radius: 100px;
   background: #8a50503b;
   color: #ffffff;
-  padding: 6px 0px 0px 12px;
+  padding: 0.2em;
+  width: 25px;
+  height: 25px;
+}
+.pop2 {
+  display: none;
+  position: fixed;
+  top: 20%;
+  left: 10.3%;
+  width: 80%;
+  height: 0%;
+  background: #ffffff;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  outline: 10px solid rgba(0, 0, 0, 0.1);
+}
+.pop2 > span {
+  cursor: pointer;
+  position: absolute;
+  top: 4%;
+  right: 1%;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  background: #8a50503b;
+  color: #ffffff;
+  padding: 0.2em;
   width: 25px;
   height: 25px;
 }

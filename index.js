@@ -130,3 +130,13 @@ function isOnHeart(x,y){
       $(".pop1").fadeOut(300);
   });
 });
+$(document).ready(function () {
+  $("#btn3").click(function () {
+      $(".pop2").fadeIn(300);
+      positionPopup();
+  });
+
+  $(".pop2 > span, .pop2").click(function () {
+      $(".pop2").fadeOut(300);
+  });
+});
