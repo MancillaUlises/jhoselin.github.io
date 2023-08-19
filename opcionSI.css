@@ -5,12 +5,21 @@
 }
 
 .twenty-one{
-  font-size: 40px;
+  /* font-size: 40px; */
   font-family: 'Josefin Sans';
   font-weight: 100;
   /* line-height: 180px; */
   color: rgb(43, 255, 0);
-  margin: 40px 0;
+  /* margin: 40px 0; */
+}
+#p1{
+  font-size: 40px;
+  margin: 0%;
+  text-align: center;
+}
+#p2{
+  margin: 0%;
+  text-align: center;
 }
 
 .cover{
@@ -119,9 +128,9 @@ section > button:hover {
   border-radius: 100px;
   background: #8a50503b;
   color: #ffffff;
-  padding: 6px 0px 0px 9px;
-  width: 30px;
-  height: 30px;
+  padding: 6px 0px 0px 12px;
+  width: 25px;
+  height: 25px;
 }
 .pop1 {
   display: none;
@@ -148,7 +157,7 @@ section > button:hover {
   border-radius: 100px;
   background: #8a50503b;
   color: #ffffff;
-  padding: 6px 0px 0px 9px;
-  width: 30px;
-  height: 30px;
+  padding: 6px 0px 0px 12px;
+  width: 25px;
+  height: 25px;
 }
